@@ -8,7 +8,7 @@
   "scripts": {
     "start": "expo start",
     "test": "vitest run",
-    "test:ci": "vitest run --reporter=json --outputFile=.constat/test-reports/app.json"
+    "test:ci": "vitest run --reporter=json --outputFile=.constat/check-report/raw.json"
   },
   "dependencies": {
     "expo": "^52.0.0",
