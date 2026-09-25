@@ -1,4 +1,5 @@
 import { Text, View } from 'react-native';
+import { productName } from '../lib/product';
 
 export default function Home() {
   return (
@@ -6,9 +7,4 @@ export default function Home() {
       <Text>{productName()}</Text>
     </View>
   );
-}
-
-/** The product's own name. Changing this is the first witnessed change. */
-export function productName(): string {
-  return 'A new app';
 }
