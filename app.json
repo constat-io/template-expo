@@ -2,6 +2,22 @@
   "expo": {
     "name": "A new app",
     "slug": "a-new-app",
-    "scheme": "anewapp"
+    "scheme": "anewapp",
+    "android": {
+      "package": "com.constat_io.template_expo"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ]
   }
 }
