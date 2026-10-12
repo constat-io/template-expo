@@ -7,7 +7,7 @@
       "package": "com.constat_io.template_expo"
     },
     "runtimeVersion": {
-      "policy": "appVersion"
+      "policy": "fingerprint"
     },
     "plugins": [
       [
