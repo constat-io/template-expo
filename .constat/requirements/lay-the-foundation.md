@@ -1,4 +1,4 @@
-# Lay the foundation
+# Your phone app’s first screen
 
 ## Problem
 
